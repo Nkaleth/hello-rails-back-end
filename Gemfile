@@ -48,4 +48,4 @@ group :development do
   # gem "spring"
 end
 
-gem 'rubocop'
+gem 'rubocop', '>= 1.0', '< 2.0'

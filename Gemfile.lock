@@ -185,7 +185,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.5)
-  rubocop (>= 1.0, < 2.0)
+  rubocop
   tzinfo-data
 
 RUBY VERSION

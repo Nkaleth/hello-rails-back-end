@@ -29,7 +29,7 @@
 
 # 📖 Rails-API <a name="about-project"></a>
 
-**Rails-API** is part of a Project to try the Implementation the connection between a Ruby on Rails back-end and React front-end using Webpack.
+**Rails-API** is part of a Project to try the Implementation the connection between a Ruby on Rails back-end and React front-end using Webpack. [Link to the front-end project with React](https://github.com/Nkaleth/hello-react-front-end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,8 +38,7 @@
 <details>
   <summary>Client</summary>
   <ul> 
-    <li><a href="https://github.com/microverseinc/linters-config/tree/master/ror">Linters</a></li>
-
+    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
 <details>
@@ -53,11 +52,6 @@
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-<summary>React</summary>
-  <ul>
-    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
 
@@ -92,8 +86,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone git@github.com:Nkaleth/react-rails-webpack.git
-  cd react-rails-webpack
+  git clone git@github.com:Nkaleth/hello-rails-back-end.git
+  cd hello-rails-back-end
 ```
 
 ### Install
@@ -102,6 +96,12 @@ Clone this repository to your desired folder:
   bundle install
 ```
 ### Usage
+
+First go to application.rb an put the correct local URL for your front-end app:
+
+```sh
+origins 'http://localhost:5173'
+```
 
 To run the project, execute the following command:
 
@@ -132,7 +132,7 @@ To run the project, execute the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- **React and Rails in separate repos**
+- **Deploy server**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
